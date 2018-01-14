@@ -1,0 +1,40 @@
+{
+    "name": "sushchytest/laravel-presenters-test",
+    "type": "libraly",
+    "license": "]",
+    "authors": [
+        {
+            "name": "Andriy Sushchyk",
+            "email": "sushchyk12@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.5",
+        "phpunit/phpunit": "^6.5",
+        "orchestra/database": "^3.5",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sushchyk\\Presenters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "tests/helpers.php"
+        ],
+        "psr-4": {
+            "Sushchyk\\Presenters\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Spatie\\CollectionMacros\\CollectionMacrosServiceProvider"
+            ]
+        }
+    }
+}
