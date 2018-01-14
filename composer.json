@@ -1,7 +1,7 @@
 {
     "name": "sushchytest/laravel-presenters-test",
     "type": "libraly",
-    "license": "]",
+    "license": "MIT",
     "authors": [
         {
             "name": "Andriy Sushchyk",
