@@ -12,7 +12,7 @@
         "php": "^7.0"
     },
     "require-dev": {
-        "orchestra/testbench": "~3.5",
+        "orchestra/testbench": "^3.5",
         "phpunit/phpunit": "^6.5",
         "orchestra/database": "^3.5",
         "mockery/mockery": "dev-master"
@@ -33,7 +33,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\CollectionMacros\\CollectionMacrosServiceProvider"
+                "Sushchyk\\Presenters\\PresentersServiceProvider"
             ]
         }
     }
