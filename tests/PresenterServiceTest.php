@@ -95,6 +95,7 @@ class PresenterServiceTest extends TestCase
     /** @test */
     public function it_presents_model()
     {
+        $this->assertFalse(true);
         $userPresentation = [
             'id'    => 1,
             'title' => 'Test title'
