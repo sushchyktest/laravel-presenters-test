@@ -16,7 +16,7 @@ composer require sushchyk/laravel-presenters:^1.*
 
 For Laravel <5.5 you should add  `Sushchyk\LaravelPresenters\MacroServiceProvider` service provider to your config/app.php:
 
-## Usage
+## UsageTest
 
 ### Collections
 ```
